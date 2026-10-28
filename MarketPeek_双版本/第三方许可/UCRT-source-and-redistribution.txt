@@ -1,0 +1,25 @@
+﻿Microsoft Universal C Runtime (UCRT) - 来源及再分发说明
+
+版权所有：Microsoft Corporation。
+本目录 DLL 从微软官方 Universal CRT Redistributable 包中原样提取，未修改。
+MSI 包版本：10.0.26624；本套 x86 DLL 文件版本：10.0.10240.16384。
+41 个 DLL（ucrtbase.dll 和 40 个 APISet 转发 DLL），总大小 1,764,032 字节。
+
+官方获取入口：
+https://aka.ms/vs/16/release/channel
+包标识：Microsoft.Windows.UniversalCRT.Redistributable.Msi
+所有实际下载地址及 SHA256：sdk-ucrt-redist/source-package.json
+MSI 和 CAB 校验与目录 SHA256 一致，Windows Authenticode 均为 Valid。
+41 个提取后 DLL 的 Microsoft Corporation 签名均为 Valid。
+DLL 哈希清单：x86-manifest.json
+签名结果：x86-signatures.json
+
+微软官方部署说明：
+https://learn.microsoft.com/en-us/cpp/windows/universal-crt-deployment?view=msvc-170
+相同说明的官方 MicrosoftDocs 源文保存在 UCRT-deployment-Microsoft.md。
+微软将这些 Windows SDK Redist 文件列为可用于应用本地部署的 DLL；本地部署应包含完整架构对应集合。
+Windows 8 之前，本地 UCRT DLL 应与主应用 EXE 位于同一目录。
+Windows 10/11 始终使用系统 UCRT。
+
+本文件为来源和部署说明，不替代 Microsoft Windows SDK 的软件许可条款。
+该独立 MSI 内未发现 EULA/License 文本文件；再分发仍须遵守适用的微软许可条款。

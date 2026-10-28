@@ -1,0 +1,55 @@
+{
+  "id": "Microsoft.Windows.UniversalCRT.Redistributable.Msi",
+  "version": "10.0.26624",
+  "type": "Msi",
+  "payloads": [
+    {
+      "fileName": "Universal CRT Redistributable-x86_en-us.msi",
+      "sha256": "b7d7f7df27098ca742197689fd9ce63e0079d1e1e9a6c3a20cdaf54443c7116e",
+      "size": 311296,
+      "url": "https://download.visualstudio.microsoft.com/download/pr/e106a47b-8ac7-48fb-bda0-c42b9fd24b6e/fae0b86414b598260f2efccc30882256/universal%20crt%20redistributable-x86_en-us.msi",
+      "signer": {
+        "$ref": "3"
+      }
+    },
+    {
+      "fileName": "9126f6ff98d955951fe9323f4444c119.cab",
+      "sha256": "39fac0fec9d1380b92108ef1ff1d53e267b73559e3f7e200e6589281ec96c07c",
+      "size": 455640,
+      "url": "https://download.visualstudio.microsoft.com/download/pr/5aa29bdc-6bb2-4c9c-b0e8-286fd4bd4cee/39fac0fec9d1380b92108ef1ff1d53e267b73559e3f7e200e6589281ec96c07c/9126f6ff98d955951fe9323f4444c119.cab",
+      "signer": {
+        "$ref": "4"
+      }
+    },
+    {
+      "fileName": "948a611cd2aca64b1e5113ffb7b95d5f.cab",
+      "sha256": "dee09bf61b630506087d8d1ca59c0147d47c037152035b465a86eab4ea437e03",
+      "size": 625357,
+      "url": "https://download.visualstudio.microsoft.com/download/pr/e106a47b-8ac7-48fb-bda0-c42b9fd24b6e/6f65fc41c44633280fdf2ef1715cbdbc/948a611cd2aca64b1e5113ffb7b95d5f.cab",
+      "signer": {
+        "$ref": "4"
+      }
+    },
+    {
+      "fileName": "fef2cfedd6135e0ed85290b83f3682c3.cab",
+      "sha256": "4e9a69b016d75b2520b975eee411c7049e0dcc96acd683e9a570834baf4a2192",
+      "size": 603424,
+      "url": "https://download.visualstudio.microsoft.com/download/pr/616f25d4-4e58-48a3-a8f1-f31e7c172e75/d1927d5466caa917782df8054568731e/fef2cfedd6135e0ed85290b83f3682c3.cab",
+      "signer": {
+        "$ref": "4"
+      }
+    }
+  ],
+  "msiProperties": {
+    "MSIFASTINSTALL": "7",
+    "VSINSTALLER": "1"
+  },
+  "productCode": "{0460C87B-7F4C-3170-FAC9-B7A6AE5CE4E9}",
+  "upgradeCode": "{464E3E15-766B-632D-4E76-925B9D96033A}",
+  "productVersion": "10.0.26624",
+  "productLanguage": 1033,
+  "providerKey": "Microsoft.Windows.UniversalCRTRedistributable.x86.10",
+  "installSizes": {
+    "systemDrive": 2291138
+  }
+}

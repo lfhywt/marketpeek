@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 重复副本与压缩包，不纳入版本库
+123/
+*.zip
+
+# 本地杂项
+*.log
+Thumbs.db
+desktop.ini
